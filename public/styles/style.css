@@ -1,0 +1,75 @@
+#landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/spotify-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#search-form-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5vh 20vw;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-results-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  padding: 2vh 10vw;
+}
+
+.search-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+  height: 30vh;
+  background-color: darkcyan;
+  color: white;
+  padding-bottom: 5px;
+  border-radius: 2px;
+}
+
+.search-results-container img {
+    width: 100%;
+    height: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.search-results-container a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+  padding: 10px 20px;
+}
+
+.track-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  margin: 1px;
+  padding: 10px 20px;
+
+}

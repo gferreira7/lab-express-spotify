@@ -1,0 +1,11 @@
+<div class='search-results-page'>
+  {{#each items}}
+    <div class='search-results-container'>
+
+      <img src={{this.images.0.url}} alt='album-image' srcset='' />
+      <h2>{{this.name}}</h2>
+      <button class="btn btn-danger"><a href='/tracks/{{this.id}}'>View Tracks</a>
+      </button>
+    </div>
+  {{/each}}
+</div>
