@@ -7,7 +7,9 @@
   <div class='track-preview'>
     <p>{{this.name}}</p>
     <div>
-      <audio src={{this.preview_url}}></audio>
+      <audio controls>
+        <source src={{this.preview_url}} media="audio/mpeg">
+      </audio>
     </div></div>
 
 {{/each}}
